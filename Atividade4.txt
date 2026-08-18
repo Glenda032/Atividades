@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head><title> Site </title></head>
+<body>
+<h1>Escola CETI Patronato Nossa Senhora de Lourdes</h1>
+<h3>Segunda-feira 03/08</h3>
+<p>Hoje iniciamos a utilização do laboratório de informática. Não há internet para realizarmos as atividades dispostas<br> pela <strong>SEDUC</strong> mas ainda tem como frequentá-lo.</br></p>
+<h2><em>Atividade</em></h2>
+<p><u>1-Farei um teste em HTML para fazer uma <strong>lista simples</strong>:</u></p>
+<h4>lista de compras</h4>
+<ul><li>Arroz</li>
+    <li>sabão</li>
+    <li>Sorvete</li>
+    <li>Biscoito</li>
+    <li>Refrigerante</li>
+    <li>Suco</li>
+    <li>Corante</li>
+    <li>Frango</li>
+</ul>
+<p><u>1.2-Agora, farei uma lista igual, porém numerada:</u></p>
+<h4>Lista de compras</h4>
+<ol><li>Arroz</li>
+    <li>Sabão</li>
+    <li>Sorvete</li>
+    <li>Biscoito</li>
+    <li>Refrigerante</li>
+    <li>Suco</li>
+    <li>Corante</li>
+    <li>Frango</li>
+</ol>
+<p><u>2-Farei um teste para fazer uma tabela(cabeçalho escolar):</u></p>
+<table>
+<tr>
+<th>Matérias escolares</th>
+</tr>
+<td>Matemática</td>
+<td>Português</td>
+<td>Biologia</td>
+<td>História</td>
+<td>Sociologia</td>
+<td>Inglês</td>
+</table>
+<p><u>Não consegui realizar este ultimo requisito. Irei pedir ajuda do professor depois.</u></p>
+<h3>Terça-feira 04/08</h3>
+<h2><em>Atividade</em></h2>
+
+</body>
+</html>
