@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Cadastro de Alunos</title>
+</head>
+<body>
+    <h2>Formulário de Cadastro</h2>
+    <form action="#" method="post">
+        <!--Campo para nome-->
+    <p>
+        <label for="nome">Nome do Aluno:</label><br>
+        <input type="text" id="nome"
+        name="nome" placeholder="Digite o nome do aluno" required>
+    </p>
+    <!--campo para email-->
+        <p>
+            <label for="email">E-mail do aluno:</label><br>
+        <input type=email id=email name =email
+        placeholder="Seu e-mail" required>
+        </p>
+        <!--Campo para Senha-->
+        <p>
+            <label for="senha">Senha de Acesso:</label><br>
+            <input type="password" id="senha" name="senha" required>
+        </p>
+        <!--Campo para seleção(dropdown)-->
+        <p>
+            <label for="assunto">Assunto:</label><br>
+            <select id="assunto" name="assunto" required>
+                <option value="">Informática</option>
+                <option value="duvida">Atividade</option>
+                <option value="sugestao">Dúvida</option>
+                <option value="suporte">Suporte</option>
+            </select>
+        </p>
+        <!--Caixa de texto Grande-->
+        <p>
+            <label for="mensagem">Comentário:</label><br>
+            <textarea id="mensagem" name="mensagem"rows="4" cols="30" placeholder="Digite seu comentário..." required></textarea>
+        </p>
+        <!--Botão de envio-->
+        <p>
+            <button type="submit">Cadastrar</button> 
+            <button type="reset">Apagar</button>
+        </p>
+    </form>
+</body>
+</html>
