@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Formulário</title>
+</head>
+<body>
+    <h2>Formulário</h2>
+    <form action="#" method="post">
+        <!--Campo para dados pessoais-->
+    <p>
+        <label for="nome">Nome Completo:</label><br>
+        <input type="text" id="nome"
+        name="nome" placeholder="Digite seu nome" required>
+    </p>
+    <p></p>
+    <label for="endereço">Endereço:</label><br>
+        <input type="text" id="endereço"
+        name="endereço" placeholder="Digite seu endereço..." required>
+    </p>
+    <p>
+        <label for="cidade">Cidade:</label><br>
+        <input type="text" id="cidade" name="cidade" placeholder="Digite sua cidade..." required>
+    </p>
+    <label for="estado">Estado:</label><br>
+            <select id="estado" name="estado" required>
+                <option value="">Selecione um estado</option>
+                <option value="sp">São Paulo</option>
+                <option value="rj">Rio de Janeiro</option>
+                <option value="pi">Piauí</option>
+                <option value="ma">Maranhão</option>
+                <option value="ba">Bahia</option>
+                <option value="sc">Santa Catarina</option>
+                <option value="am">Amazonas</option>
+                <option value="ap">Amapá</option>
+                <option value="pa">Pará</option>
+                <option value="mg">Minas Gerais</option>
+                <option value="Ro">Rondônia</option>
+            </select>
+    <p>
+        <!--Caixa de Dados Profissionais-->
+        <p>Dados profissionais</p>
+        <p>Natureza do cargo</p>
+        <p>
+            <input type="radio" id="gerencia" name="gerencia" value="sim" required>
+            <label for="gerencia">Gerência</label><br>
+            <input type="radio" id="financeiro" name="financeiro" value="sim" required>
+            <label for="financeiro">Financeiro</label><br>
+            <input type="radio" id="Recepção" name="Recepção" value="sim" required>
+            <label for="Recepção">Recepção</label><br>
+            <input type="radio" id="administrativo" name="administrativo" value="sim" required>
+            <label for="administrativo">Administrativo</label><br>
+            <input type="radio" id="Jurídico" name="Jurídico" value="sim" required>
+            <label for="Jurídico">Jurídico</label><br>
+
+        </p>
+        <p>Área de interesse</p>
+        <p>
+            <input type="checkbox" id="computação" name="computação" value="sim">
+            <label for="computação">Computação</label><br>
+            <input type="checkbox" id="Biologia" name="Biologia" value="sim">
+            <label for="Biologia">Biologia</label><br>
+            <input type="checkbox" id="Meio Ambiente" name="Meio Ambiente" value="sim">
+            <label for="Meio Ambiente">Meio Ambiente</label><br>
+            <input type="checkbox" id="Engenharia" name="Engenharia" value="sim">
+            <label for="Engenharia">Engenharia</label><br>
+            <input type="checkbox" id="História" name="História" value="sim">
+            <label for="História">História</label><br>
+        </p>
+
+        <!--campo para mensagem-->
+        <p>
+            <label for="mensagem">Mensagem:</label><br>
+            <textarea id="mensagem" name="mensagem"rows="4" cols="30" placeholder="Escreva sua mensagem aqui..." required></textarea>
+        </p>
+        <!--Botão de envio-->
+        <p>
+            <button type="submit">Enviar</button> 
+            <button type="reset">Limpar</button>
+        </p>
+    </form>
+</body>
+</html>
